@@ -1,0 +1,30 @@
+#github {
+  vertical-align: middle;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+#github-icon {
+  vertical-align: middle;
+  padding-right: 5px;
+  font-size: 24px;
+}
+
+#footer {
+  background-color: #1A1A1A;
+  border-top-color: #A1E3F0;
+  border-top-style: solid;
+  border-width: 5px;
+  color: #FFF;
+  height: 60px;
+  margin-top: -60px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  z-index: 2;
+}
+
+#footer-text {
+  text-align: center;
+}

@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+.ui-menuitem-text {
+  font-size: 20px;
+}
+
+body {
+  background-image: url("./assets/portfolio_background_1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+}
