@@ -1,0 +1,39 @@
+#portrait {
+  float: left;
+  height: 25em;
+  padding-left: 24px;
+  margin-right: 1.5em;
+}
+
+.title {
+  font-size: 36px;
+  text-transform: capitalize;
+  margin-bottom: 0px;
+}
+
+.bio {
+  text-indent: 2em;
+  font-size: 24px;
+  padding-right: 12px;
+}
+
+.header-text {
+  text-indent: 24px;
+  text-align: left;
+  color: #556d7c;
+  position: relative;
+  overflow: hidden;
+  font-size: 36px;
+}
+
+.header-text:after {
+  display: inline-block;
+  content: "";
+  height: 3px;
+  background: #556d7c;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  margin-top: -2px;
+  margin-left: 10px;
+}
