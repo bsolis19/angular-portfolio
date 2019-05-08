@@ -11,20 +11,15 @@
 }
 
 #footer {
-  background-color: #1A1A1A;
-  border-top-color: #A1E3F0;
-  border-top-style: solid;
-  border-width: 5px;
-  color: #FFF;
-  height: 60px;
-  margin-top: -60px;
   position: absolute;
-  text-align: center;
   width: 100%;
-  bottom: 0px;
-  z-index: 2;
+  right: 0em;
+  bottom: 0em;
+  left: 0em;
+  background-color: black;
 }
 
 #footer-text {
   text-align: center;
+  color: red;
 }

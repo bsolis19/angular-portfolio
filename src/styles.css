@@ -4,10 +4,17 @@
 }
 
 body {
+  margin: 0;
   background-image: url("./assets/portfolio_background_1.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100%;
+}
+
+.wrapper {
+  width: 95%;
+  max-width: 75em;
+  margin: 0 auto;
 }
