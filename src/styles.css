@@ -4,9 +4,19 @@
 }
 
 body {
+  margin: 0;
+  /* background-image: url("./assets/portfolio_background_1.jpg"); */
+  background-color: #d3ba17;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100%;
+}
+
+.wrapper {
+  background-color: #685b04;
+  width: 95%;
+  max-width: 75em;
+  margin: 0 auto;
 }
