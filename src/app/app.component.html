@@ -1,11 +1,13 @@
-<p-menubar [model]="items">
-  <span><i class="fa fa-github" id="github-icon"></i><a id="github" href="{{ github }}">Github</a></span>
-</p-menubar>
-
-<div class="wrapper">
-  <router-outlet></router-outlet>
-</div>
-
+<header>
+  <p-menubar [model]="items">
+    <span><i class="fa fa-github" id="github-icon"></i><a id="github" href="{{ github }}">Github</a></span>
+  </p-menubar>
+</header>
+<section>
+  <div class="wrapper">
+    <router-outlet></router-outlet>
+  </div>
+</section>
 <footer>
   <div id="footer">
       <p id="footer-text">Copyright © 2019, Ben Solis.</p>
