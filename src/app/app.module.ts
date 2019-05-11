@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { MenubarModule, MenuItem } from 'primeng/primeng';
+import { MenubarModule, MenuItem, GalleriaModule } from 'primeng/primeng';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -23,6 +23,7 @@ import { EmploymentComponent } from './employment/employment.component';
   imports: [
     BrowserModule,
     MenubarModule,
+    GalleriaModule,
     AppRoutingModule
   ],
   providers: [

@@ -1,4 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+.ui-menuitem-text {
+  font-size: 20px;
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.wrapper {
+  background-color: #685b04;
+  width: 95%;
+  max-width: 75em;
+  margin: 0 auto;
+}
+
 html {
   max-height: 100%;
 }
@@ -6,7 +22,6 @@ html {
 body {
   margin: 0;
   position: relative;
-  /* background-image: url("./assets/portfolio_background_1.jpg"); */
   background-color: #d3ba17;
   background-attachment: fixed;
   background-position: center;
@@ -23,20 +38,4 @@ h1,p {
 h2 {
   margin: 0;
   color: white;
-}
-
-.ui-menuitem-text {
-  font-size: 20px;
-}
-
-.page-container {
-  position: relative;
-  min-height: 100vh;
-}
-
-.wrapper {
-  background-color: #685b04;
-  width: 95%;
-  max-width: 75em;
-  margin: 0 auto;
 }
