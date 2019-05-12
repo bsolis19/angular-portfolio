@@ -5,14 +5,43 @@
 }
 
 .bio {
+  display: block;
   text-indent: 2em;
   font-size: 24px;
   padding-right: 12px;
+  padding-left: 12px;
 }
 
+.first-ln {
+  text-transform: uppercase;
+}
+
+p:first-of-type {
+  text-indent: 0;
+}
+
+.dropcap {
+  padding-left: 1.125em;
+  padding-right: 0.15em;
+  float: left;
+  position: relative;
+  top: -0.25em;
+  margin-bottom: -0.5em;
+  margin-left: -6px;
+  margin-right: 2px;
+  font-size: 2em;
+  /* text-transform: uppercase;
+  padding-right: .5em;
+  font-family: "Gentium Book Basic", serif;
+  font-style: italic;
+  color: white;
+  font-size: 2em;
+  float: left; */
+}
 
 .main {
   margin-top: 24px;
+  display: inline-block;
 }
 
 i {
