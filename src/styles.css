@@ -4,15 +4,14 @@
 }
 
 .page-container {
-  position: relative;
   min-height: 100vh;
+  position: relative;
 }
 
 .wrapper {
   background-color: #685b04;
-  width: 95%;
-  max-width: 75em;
   margin: 0 auto;
+  max-width: 800px;
 }
 
 html {
@@ -20,22 +19,46 @@ html {
 }
 
 body {
-  margin: 0;
-  position: relative;
-  background-color: #d3ba17;
   background-attachment: fixed;
+  background-color: #d3ba17;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0;
   min-height: 100%;
+  position: relative;
 }
 
 h1,p {
-  margin: 24px;
   color: white;
+  margin: 24px;
 }
 
 h2 {
-  margin: 0;
   color: white;
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  .ui-menuitem-text {
+    display: none;
+  }
+  .ui-menuitem-icon {
+    padding: 0 10px;
+  }
+  header::before {
+    background-color: black;
+    color: #d3ba17;
+    content: "Ben Solis";
+    display: inline-block;
+    font-size: 2.5em;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+  }
+  .banner {
+    display: none;
+  }
 }
