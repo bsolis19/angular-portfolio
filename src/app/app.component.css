@@ -11,11 +11,11 @@
 }
 
 .banner {
-  background-image: url(../assets/code.jpg);
+  background-image: url(../assets/banner.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100px ;
+  height: 100px;
 }
 
 /* .banner::after {
