@@ -1,4 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+*, *::after, *::before {
+  box-sizing: inherit;
+}
 .ui-menuitem-text {
   font-size: 20px;
 }
@@ -9,9 +12,9 @@
 }
 
 .wrapper {
-  background-color: #685b04;
   margin: 0 auto;
   max-width: 800px;
+  padding: 32px 16px;
 }
 
 html {
@@ -29,9 +32,8 @@ body {
   position: relative;
 }
 
-h1, h2, h3, h4, h5, p {
-  color: white;
-  margin: 24px;
+h1, h2, h3, h4, h5, h6, p, ul, ol {
+  margin-top: 0;
 }
 
 @media (max-width: 500px) {
