@@ -29,14 +29,9 @@ body {
   position: relative;
 }
 
-h1,p {
+h1, h2, h3, h4, h5, p {
   color: white;
   margin: 24px;
-}
-
-h2 {
-  color: white;
-  margin: 0;
 }
 
 @media (max-width: 500px) {
